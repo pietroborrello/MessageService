@@ -85,13 +85,21 @@ l'esecuzione dell'applicazione.
 ###C.	Protocollo Messaggi
 C: Client
 S: Server
-i.	C -> S: (Username | Psw){enc}
-ii.	S -> C: (isOk)
-iii.	If(!isOk) goto i.
-iv.	C -> S: (Cmd | [Msg]){enc}
-v.	If(Cmd = SEND) goto vii.
-vi.	S -> C: (Reply){enc}
-vii.	end
+
+i.    C -> S: (Username | Psw){enc}
+
+ii.	  S -> C: (isOk)
+
+iii.	  If(!isOk) goto i.
+
+iv.	  C -> S: (Cmd | [Msg]){enc}
+
+v.	  If(Cmd = SEND) goto vii.
+
+vi.	  S -> C: (Reply){enc}
+
+vii.	  end
+
 
 ###D.	Formato Messaggi
 Ogni messaggio scambiato nelle applicazioni ha una taglia massima di 
