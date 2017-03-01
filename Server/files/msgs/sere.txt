@@ -1,0 +1,3 @@
+adminsereEncryption EnabledAll your messages are now enripted with AES CBC 128 bit! 
+Feel more secure? ;)
+Don't, because this encription sucks.

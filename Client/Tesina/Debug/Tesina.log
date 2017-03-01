@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  Client.cpp
+e:\client\tesina\client.cpp(376): warning C4800: 'UINT': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+e:\client\tesina\client.cpp(491): warning C4267: '=': conversione da 'size_t' a 'char'. Possibile perdita di dati.
+  rsa.cpp
+  linked_list.cpp
+  aes.cpp
+  Generazione del codice in corso...
+  Tesina.vcxproj -> E:\Client\Debug\Tesina.exe
+  Tesina.vcxproj -> E:\Client\Debug\Tesina.pdb (Full PDB)

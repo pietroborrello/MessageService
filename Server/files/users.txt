@@ -1,0 +1,13 @@
+admin admin
+a a
+mario mario123
+alice password
+gianni 123abc
+anna 1991345
+asap 12345
+aldo aldo1
+provaReg psw
+pietro 123psw
+acc acl
+alias psw
+user user

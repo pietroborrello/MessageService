@@ -1,0 +1,375 @@
+
+Exiting from server...
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminadminprovaprova messaggio
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminadminEncryptionNow all your messager are encrypted with AES CBC 128 bit! 
+Feel more secure? ;)
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Exiting from server...
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: register admin admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminadminprovamessaggio di prova
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminadminEncryption EnabledAll your messages are enripted with AES CBC 128 bit! 
+Feel more secure? ;)
+Don't because this encription sucks.
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminsereEncryption EnabledAll your messages are now enripted with AES CBC 128 bit! 
+Feel more secure? ;)
+Don't, because this encription sucks.
+User not exists: Undefined error: 0
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Exiting from server...
+Unable to access the semaphore: Identifier removed
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Exiting from server...
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Received: useradminciaociao
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Received: useradminncisaocc
+User not exists: Undefined error: 0
+Incoming connection accepted...
+Received: user user
+Logged in: user - user
+Received: get
+Socket closed: Connection reset by peer
+Exiting from server...
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Incoming connection accepted...
+Received: admin adm
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin ad
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin a
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: a a
+Logged in: a - a
+Socket closed: Connection reset by peer
+Exiting from server...
+SERVER ON
+admin - admin
+a - a
+mario - mario123
+alice - password
+gianni - 123abc
+anna - 1991345
+asap - 12345
+aldo - aldo1
+provaReg - psw
+pietro - 123psw
+acc - acl
+alias - psw
+user - user
+Incoming connection accepted...
+Received: a a
+Logged in: a - a
+Received: aadminaaaprova
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin addm
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: register admin admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: sync
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminadminnciaociao
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: adminaavvcc
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Incoming connection accepted...
+Received: admin admin
+Logged in: admin - admin
+Received: get
+Socket closed: Connection reset by peer
+Socket closed: Connection reset by peer
+Exiting from server...

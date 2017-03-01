@@ -1,0 +1,61 @@
+﻿  stdafx.cpp
+  Client.cpp
+e:\client\tesina\client.cpp(337): error C2664: 'BOOL CreateDirectoryW(LPCWSTR,LPSECURITY_ATTRIBUTES)': impossibile convertire l'argomento 1 da 'const char [5]' a 'LPCWSTR'
+  e:\client\tesina\client.cpp(337): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(342): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': impossibile convertire l'argomento 1 da 'char [20]' a 'LPCWSTR'
+  e:\client\tesina\client.cpp(342): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(343): error C2664: 'void perror(const char *)': impossibile convertire l'argomento 1 da 'const wchar_t [29]' a 'const char *'
+  e:\client\tesina\client.cpp(343): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(343): error C2065: 'LL': identificatore non dichiarato
+e:\client\tesina\client.cpp(343): error C2059: errore di sintassi: 'stringa'
+e:\client\tesina\client.cpp(341): warning C4477: 'sprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'char *', ma il tipo dell'argomento variadic 1 è '_TCHAR *'
+  e:\client\tesina\client.cpp(341): note: provare a usare '%ls' nella stringa di formato
+  e:\client\tesina\client.cpp(341): note: provare a usare '%lls' nella stringa di formato
+  e:\client\tesina\client.cpp(341): note: provare a usare '%Ls' nella stringa di formato
+  e:\client\tesina\client.cpp(341): note: provare a usare '%ws' nella stringa di formato
+e:\client\tesina\client.cpp(355): warning C4477: 'swprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'wchar_t *', ma il tipo dell'argomento variadic 1 è 'char *'
+  e:\client\tesina\client.cpp(355): note: provare a usare '%hs' nella stringa di formato
+  e:\client\tesina\client.cpp(355): note: provare a usare '%Ts' nella stringa di formato
+  e:\client\tesina\client.cpp(355): note: provare a definire _CRT_STDIO_ISO_WIDE_SPECIFIERS se è necessaria la semantica standard C99
+e:\client\tesina\client.cpp(356): warning C4477: 'swprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'wchar_t *', ma il tipo dell'argomento variadic 1 è 'char *'
+  e:\client\tesina\client.cpp(356): note: provare a usare '%hs' nella stringa di formato
+  e:\client\tesina\client.cpp(356): note: provare a usare '%Ts' nella stringa di formato
+  e:\client\tesina\client.cpp(356): note: provare a definire _CRT_STDIO_ISO_WIDE_SPECIFIERS se è necessaria la semantica standard C99
+e:\client\tesina\client.cpp(357): warning C4477: 'swprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'wchar_t *', ma il tipo dell'argomento variadic 1 è 'char *'
+  e:\client\tesina\client.cpp(357): note: provare a usare '%hs' nella stringa di formato
+  e:\client\tesina\client.cpp(357): note: provare a usare '%Ts' nella stringa di formato
+  e:\client\tesina\client.cpp(357): note: provare a definire _CRT_STDIO_ISO_WIDE_SPECIFIERS se è necessaria la semantica standard C99
+e:\client\tesina\client.cpp(376): warning C4800: 'UINT': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+e:\client\tesina\client.cpp(386): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+e:\client\tesina\client.cpp(439): error C2664: 'size_t strlen(const char *)': impossibile convertire l'argomento 1 da '_TCHAR [16]' a 'const char *'
+  e:\client\tesina\client.cpp(439): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(439): error C2660: 'memcpy': la funzione non accetta 2 argomenti
+e:\client\tesina\client.cpp(453): error C2664: 'int sprintf_s(char *const ,const std::size_t,const char *const ,...)': impossibile convertire l'argomento 1 da '_TCHAR [36]' a 'char *const '
+  e:\client\tesina\client.cpp(453): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(454): error C2065: 'Lformat': identificatore non dichiarato
+e:\client\tesina\client.cpp(380): warning C4477: 'swprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'wchar_t *', ma il tipo dell'argomento variadic 1 è 'const char *'
+  e:\client\tesina\client.cpp(380): note: provare a usare '%hs' nella stringa di formato
+  e:\client\tesina\client.cpp(380): note: provare a usare '%Ts' nella stringa di formato
+  e:\client\tesina\client.cpp(380): note: provare a definire _CRT_STDIO_ISO_WIDE_SPECIFIERS se è necessaria la semantica standard C99
+e:\client\tesina\client.cpp(385): warning C4477: 'swprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'wchar_t *', ma il tipo dell'argomento variadic 1 è 'const char *'
+  e:\client\tesina\client.cpp(385): note: provare a usare '%hs' nella stringa di formato
+  e:\client\tesina\client.cpp(385): note: provare a usare '%Ts' nella stringa di formato
+  e:\client\tesina\client.cpp(385): note: provare a definire _CRT_STDIO_ISO_WIDE_SPECIFIERS se è necessaria la semantica standard C99
+e:\client\tesina\client.cpp(448): warning C4477: 'fprintf_s': con la stringa di formato '%s' è necessario un argomento di tipo 'char *', ma il tipo dell'argomento variadic 2 è '_TCHAR *'
+  e:\client\tesina\client.cpp(448): note: provare a usare '%ls' nella stringa di formato
+  e:\client\tesina\client.cpp(448): note: provare a usare '%lls' nella stringa di formato
+  e:\client\tesina\client.cpp(448): note: provare a usare '%Ls' nella stringa di formato
+  e:\client\tesina\client.cpp(448): note: provare a usare '%ws' nella stringa di formato
+e:\client\tesina\client.cpp(491): warning C4267: '=': conversione da 'size_t' a 'char'. Possibile perdita di dati.
+e:\client\tesina\client.cpp(492): error C2664: 'int *encodeMessage(int,int,char *,int,int)': impossibile convertire l'argomento 3 da '_TCHAR [48]' a 'char *'
+  e:\client\tesina\client.cpp(492): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(593): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+e:\client\tesina\client.cpp(597): error C2664: 'size_t strnlen(const char *,std::size_t)': impossibile convertire l'argomento 1 da '_TCHAR [16]' a 'const char *'
+  e:\client\tesina\client.cpp(597): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+e:\client\tesina\client.cpp(597): error C2660: 'memcpy': la funzione non accetta 2 argomenti
+e:\client\tesina\client.cpp(612): error C2664: 'int send(SOCKET,const char *,int,int)': impossibile convertire l'argomento 2 da '_TCHAR *' a 'const char *'
+  e:\client\tesina\client.cpp(612): note: I tipi a cui si punta sono privi di relazioni. La conversione richiede reinterpret_cast, cast di tipo C o cast di tipo funzione
+  rsa.cpp
+  linked_list.cpp
+  aes.cpp
+  Generazione del codice in corso...

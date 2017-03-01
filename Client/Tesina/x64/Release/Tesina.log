@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  aes.cpp
+  linked_list.cpp
+  rsa.cpp
+  Client.cpp
+Client.cpp(376): warning C4800: 'UINT': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+Client.cpp(386): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+Client.cpp(491): warning C4267: '=': conversione da 'size_t' a 'char'. Possibile perdita di dati.
+Client.cpp(593): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+  Generazione codice in corso...
+  All 51 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  Tesina.vcxproj -> E:\Client\x64\Release\Tesina.exe
+  Tesina.vcxproj -> E:\Client\x64\Release\Tesina.pdb (Full PDB)
