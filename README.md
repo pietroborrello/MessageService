@@ -1,13 +1,13 @@
-#SERVIZIO DI MESSAGGISTICA
-##1.	SPECIFICHE
+# SERVIZIO DI MESSAGGISTICA
+## 1.	SPECIFICHE
 Si realizza un servizio di scambio di messaggi attraverso un server concorrente. 
 Il server accetta messaggi contenenti Destinatario, Oggetto e Testo da client 
 autenticati e li archivia. Ogni client oltre ad inviare messaggi ad un qualunque utente 
 del sistema, può richiedere la lettura dei messaggi a lui spediti ed eventualmente la 
 rimozione. 
-##2.	SCELTE DI PROGETTO 
+## 2.	SCELTE DI PROGETTO 
 
-###A.	Server
+### A.	Server
 Il server è progettato per un sistema UNIX, ed è implementato come un 
 processo con un thread per ogni utente connesso al sistema. Il processo del 
 server è eseguito attraverso uno script (che permette di evitare di dovergli 
@@ -57,7 +57,7 @@ essere presenti nei messaggi. Il server ignora tutti i segnali a parte SIGINT
 chiusura del processo, dopo aver liberato le risorse dedicate al processo.
 
 
-###B.	Client
+### B.	Client
 Il client è progettato per un sistema WINDOWS a interfacce grafiche, ed è 
 composto da un unico processo ed un unico thread, in attesa di interazioni 
 utente, gestita attraverso il Message Polling. Un'applicazione client può 
@@ -82,7 +82,7 @@ l'esecuzione dell'applicazione.
 
 
 
-###C.	Protocollo Messaggi
+### C.	Protocollo Messaggi
 C: Client
 S: Server
 
@@ -101,7 +101,7 @@ vi.	  S -> C: (Reply){enc}
 vii.	  end
 
 
-###D.	Formato Messaggi
+### D.	Formato Messaggi
 Ogni messaggio scambiato nelle applicazioni ha una taglia massima di 
 LEN_MSG ed è sempre multiplo di KEY_LEN byte. I messaggi sono scambiati 
 crittografati a chiave simmetrica, il protocollo prevede che venga prima 
@@ -110,9 +110,9 @@ KEY_LEN = 16 byte) del messaggio in arrivo, e venga poi spedito il messaggio
 intero. Una volta decrittato il messaggio, per essere considerato valido, deve 
 contenere i campi Sender, Receiver, Object, Message separati da un byte 
 RECORD_SEP, e terminare con un byte MSG_SEP, altrimenti viene scartato.
-##3.	MANUALE D'USO 
+## 3.	MANUALE D'USO 
 
-###A.	Server
+### A.	Server
 Per il server è presente un Makefile nella cartella ./src, che compila i 
 sorgenti, includendo automaticamente tutte le librerie necessarie (rsa.h, 
 aes.h, hashmap.h, linked_list.h) e generando un eseguibile ottimizzato con -
@@ -121,6 +121,6 @@ Per eseguire il server, lanciare lo script ./src/server.sh che esegue il
 processo in background, settando il nice a -10, senza conferire 
 all'applicazione i privilegi superuser.
 
-###B.	Client
+### B.	Client
 Il client è parte di una soluzione Visual Studio: per essere compilato settare 
 su Release x86 o x64. Per l'esecuzione basta lanciare l'exe generato.
